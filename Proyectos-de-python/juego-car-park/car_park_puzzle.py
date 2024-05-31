@@ -38,7 +38,7 @@ def get_new_positions(car_positions, car_to_move, move, horizontal):
         elif move == 'd':  # Derecha
             return [[pos[0], pos[1] + 1] for pos in car_pos]
     else:
-        if move == 'w':  # Arriba
+        if move == 'w':  # Arribaa
             return [[pos[0] - 1, pos[1]] for pos in car_pos]
         elif move == 's':  # Abajo
             return [[pos[0] + 1, pos[1]] for pos in car_pos]
